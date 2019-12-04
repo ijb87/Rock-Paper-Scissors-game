@@ -22,6 +22,7 @@ body{
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+  margin-bottom: 0;
 }
 
 .scoreboard{
@@ -32,21 +33,14 @@ body{
   position: relative;
   left: 250;
   width: 300px;
-  height: 75px;
+  height: auto;
   clear: both;
-  
+  margin-top: 30px;
+
 }
 
-.gameName{
-  letter-spacing: 1px;
-  font-family: 'Patua One', cursive;
-  color: white;
-  margin: 7px 0px 7px 7px;;
-  float: left;
-  line-height: 17px;
-  font-size: 20px;
-  vertical-align: middle;
-  position: relative;
+#logo {
+  width: 40%;
   top: 7%;
   margin-left: 13px;
 }
@@ -56,5 +50,9 @@ body{
 }
 
 a:link{
+  color: white;
+}
+
+p{
   color: white;
 }
